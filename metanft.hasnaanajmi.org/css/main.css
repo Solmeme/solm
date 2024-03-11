@@ -452,7 +452,7 @@ select:-webkit-autofill:focus {
 
 .header .header-inner .main-nav .menu li {
     position: relative;
-    margin-right: 23px;
+    margin-right: 63px;
     letter-spacing: .6px;
 }
 
@@ -2557,7 +2557,7 @@ select:-webkit-autofill:focus {
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
 	.header .header-inner .main-nav .menu li {
-        margin-right: 22px;
+        margin-right: 72px;
     }
 
     .nft-box .nft-box-collection .nft-box-user-name h4,
