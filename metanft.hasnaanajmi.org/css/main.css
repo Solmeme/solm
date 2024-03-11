@@ -31,13 +31,13 @@ Table Of Contents
 -----------------------------------------*/
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
 	background-color: #050828;
 	overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Michroma', sans-serif;
+    /* font-family: 'Michroma', sans-serif; */
     margin: 0;
     padding: 0;
 }
@@ -379,7 +379,7 @@ select:-webkit-autofill:focus {
 }
 
 .header .header-inner .logo img {
-    width: 195px;
+    width: 50px;
 }
 
 .header .header-inner .main-nav {
@@ -1896,7 +1896,7 @@ select:-webkit-autofill:focus {
 }
 
 .footer .footer-top .footer-logo a img { 
-	width: 195px;
+	width: 50px;
 }
 
 .footer .footer-top .footer-logo .my-logo {
@@ -2834,3 +2834,15 @@ select:-webkit-autofill:focus {
     }
 
 }
+
+h1 {
+    font-family: "Creepster", system-ui;
+    font-weight: 600;
+    font-style: normal;
+  }
+h2 {
+    font-family: "acme", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
