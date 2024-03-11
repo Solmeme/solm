@@ -154,7 +154,7 @@ select:-webkit-autofill:focus {
 }
 
 .discover-more a:hover {
-    color: #f70361;
+    color: #4097E3;
 }
 
 .discover-more a i {
@@ -164,7 +164,7 @@ select:-webkit-autofill:focus {
     width: 22px;
     height: 22px;
     line-height: 20.5px;
-    background: linear-gradient(124deg,#f95a85,#f70361,#f95420);
+    background: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
     border: 1px solid rgba(247, 3, 97, .2);
     color: #fff;
     border-radius: 50%;
@@ -190,7 +190,7 @@ select:-webkit-autofill:focus {
 
 .main-btn {
     font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(124deg,#f95a85,#f70361,#f95420);
+    background: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
     color: #fff;
     min-width: 129px;
     display: inline-block;
@@ -211,7 +211,7 @@ select:-webkit-autofill:focus {
 }
 
 .main-btn:hover {
-    background: linear-gradient(-124deg,#f95a85,#f70361,#f95420);
+    background: linear-gradient(-124deg,#9FCBF1,#4097E3,#0074DA);
     color: #fff;
 }
 
@@ -233,7 +233,7 @@ select:-webkit-autofill:focus {
 
 .custom-btn:hover {
     background: #fff;
-    color: #f70361;
+    color: #4097E3;
     border: 1px solid #d7d1d1;
 }
 
@@ -325,7 +325,7 @@ select:-webkit-autofill:focus {
 }
 
 .switched-styles ul li[data-color="theme_color_1"] {
-    background: linear-gradient(124deg,#f95a85,#f70361,#f95420);;
+    background: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);;
 }
 
 .switched-styles ul li[data-color="theme_color_2"] {
@@ -488,7 +488,7 @@ select:-webkit-autofill:focus {
 }
 
 .header .header-inner .main-nav .menu li a:hover {
-    background-image: linear-gradient(124deg,#f95a85,#f70361,#f95420);
+    background-image: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -609,21 +609,21 @@ select:-webkit-autofill:focus {
 
 .header .header-inner .main-nav .menu li.menu-item-has-children > a:hover::after,
 .header .header-inner .main-nav .menu li.menu-item-has-children > a:hover {
-    background-image: linear-gradient(124deg,#f95a85,#f70361,#f95420);
+    background-image: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .header .header-inner .main-nav .menu li.menu-item.current > a {
-    background-image: linear-gradient(124deg,#f95a85,#f70361,#f95420);
+    background-image: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .header .header-inner .main-nav .menu li.menu-item.current > a::after {
-    background-image: linear-gradient(124deg,#f95a85,#f70361,#f95420);
+    background-image: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -634,7 +634,7 @@ select:-webkit-autofill:focus {
     display: flex;
     align-items: center;
     position: relative;
-    background: linear-gradient(124deg,#f95a85,#f70361,#f95420);
+    background: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
     color: #fff;
     font-weight: 700;
     text-transform: uppercase;
@@ -651,7 +651,7 @@ select:-webkit-autofill:focus {
 }
 
 .header .header-inner .header-btn:hover {
-    background: linear-gradient(-124deg,#f95a85,#f70361,#f95420);
+    background: linear-gradient(-124deg,#9FCBF1,#4097E3,#0074DA);
 }
 
 @media only screen and (max-width: 991.99px) {
@@ -821,7 +821,7 @@ select:-webkit-autofill:focus {
 }
 
 .home .home-content h1 span {
-    background-image: linear-gradient(124deg,#f95a85,#f70361,#f95420);
+    background-image: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -881,7 +881,7 @@ select:-webkit-autofill:focus {
 }
 
 .home .home-facts .facts-list li span.number {
-    background-image: linear-gradient(124deg,#f95a85,#f70361,#f95420);
+    background-image: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -964,7 +964,7 @@ select:-webkit-autofill:focus {
 
 .home2 .owl-carousel .owl-nav .owl-next:hover,
 .home2 .owl-carousel .owl-nav .owl-prev:hover {
-    background: linear-gradient(124deg,#f95a85,#f70361,#f95420);
+    background: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
 }
 
 .home2 .overlay {
@@ -993,7 +993,7 @@ select:-webkit-autofill:focus {
 }
 
 .home2 .home-content .custom-btn:hover {
-    color: #f70361;
+    color: #4097E3;
 }
 
 /* --------------------------------------
@@ -1022,7 +1022,7 @@ select:-webkit-autofill:focus {
 }
 
 .nft-box:hover {
-    border: 2px solid #f70361;
+    border: 2px solid #4097E3;
     transform: translateY(-10px);
 }
 
@@ -1067,7 +1067,7 @@ select:-webkit-autofill:focus {
 }
 
 .nft-box .nft-box-thumb .nft-box-popularity a:hover {
-   color: #f70361;
+   color: #4097E3;
 }
 
 .nft-box .nft-box-thumb .nft-box-btn-content {
@@ -1112,13 +1112,13 @@ select:-webkit-autofill:focus {
 }
 
 .nft-box .nft-box-btn-content .nft-box-btn:hover {
-    background: linear-gradient(124deg,#f95a85,#f70361,#f95420);;
+    background: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);;
     color: #fff;
 }
 
 .nft-box .nft-box-btn-content .nft-box-btn i {
     margin-left: 8px;
-    background-image: linear-gradient(124deg,#f95a85,#f70361,#f95420);
+    background-image: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1152,7 +1152,7 @@ select:-webkit-autofill:focus {
 }
 
 .nft-box .nft-box-title-wrap .nft-box-title a:hover {
-    background-image: linear-gradient(124deg,#f95a85,#f70361,#f95420);
+    background-image: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1162,7 +1162,7 @@ select:-webkit-autofill:focus {
     width: 29px;
     height: 29px;
     line-height: 30px;
-    background: linear-gradient(124deg,#f95a85,#f70361,#f95420);
+    background: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
     border: 1px solid rgba(247, 3, 97, .2);
     border-radius: 50%;
     display: block;
@@ -1302,7 +1302,7 @@ select:-webkit-autofill:focus {
 }
 
 .about .sub-title {
-    background-image: linear-gradient(124deg,#f95a85,#f70361,#f95420);
+    background-image: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1362,7 +1362,7 @@ select:-webkit-autofill:focus {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    background: linear-gradient(124deg,#f95a85,#f70361,#f95420);
+    background: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
     border: 0.5px solid #27344c;
     width: 5px;
     height: 108%;
@@ -1404,7 +1404,7 @@ select:-webkit-autofill:focus {
     display: inline-block;
     width: 10px;
     height: 10px;
-    background: linear-gradient(124deg,#f95a85,#f70361,#f95420);
+    background: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
     border-radius: 50%;
     -webkit-transition: all .2s cubic-bezier(.47, 0, .745, .715);
             transition: all .2s cubic-bezier(.47, 0, .745, .715);
@@ -1491,7 +1491,7 @@ select:-webkit-autofill:focus {
 
 .discover-nfts .nfts-filter .filter-wrap .filter button.active,
 .discover-nfts .nfts-filter .filter-wrap .filter button:hover {
-    background: linear-gradient(124deg,#f95a85,#f70361,#f95420);
+    background: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
     color: #fff;
     border: 1px solid transparent;
 }
@@ -1537,7 +1537,7 @@ select:-webkit-autofill:focus {
     width: 24px;
     height: 24px;
     line-height: 25px;
-    background: linear-gradient(124deg,#f95a85,#f70361,#f95420);
+    background: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
     border: 1px solid rgba(247, 3, 97, .2);
     border-radius: 50%;
     display: block;
@@ -1612,7 +1612,7 @@ select:-webkit-autofill:focus {
     height: 43px;
     line-height: 44px;
     text-align: center;
-    background: linear-gradient(124deg,#f95a85,#f70361,#f95420);
+    background: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
     border-radius: 24px;
 }
 
@@ -1678,7 +1678,7 @@ select:-webkit-autofill:focus {
 }
 
 .blog .blog-item .blog-item-content .post-content .cat {
-    background-image: linear-gradient(124deg,#f95a85,#f70361,#f95420);
+    background-image: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1758,7 +1758,7 @@ select:-webkit-autofill:focus {
 }
 
 .blog .blog-item .post-content h3:hover {
-    background-image: linear-gradient(124deg,#f95a85,#f70361,#f95420);
+    background-image: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1790,7 +1790,7 @@ select:-webkit-autofill:focus {
     height: 60px;
     display: block;
     line-height: 60px;
-    background: linear-gradient(124deg,#f95a85,#f70361,#f95420);
+    background: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
     border-radius: 50%;
     text-align: center;
     font-size: 22px;
@@ -1940,7 +1940,7 @@ select:-webkit-autofill:focus {
 }
 
 .footer .footer-top .footer-item ul li a:hover {
-    color: #f70361;
+    color: #4097E3;
 	padding-left: 14px;
 }
 
@@ -1982,12 +1982,12 @@ select:-webkit-autofill:focus {
     width: 58px;
     line-height: 58px;
     text-align: center;
-    background: linear-gradient(124deg,#f95a85,#f70361,#f95420);
+    background: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
     border-radius: 0 24px 24px 0;
 }
 
 .footer .footer-top .footer-item .footer-newsletter .submit:hover {
-    background: linear-gradient(-124deg,#f95a85,#f70361,#f95420);
+    background: linear-gradient(-124deg,#9FCBF1,#4097E3,#0074DA);
 }
 
 .footer .footer-top .footer-item .footer-newsletter .submit i {
@@ -2009,7 +2009,7 @@ select:-webkit-autofill:focus {
 
 .footer .footer-bottom .copyright p span { 
 	font-family: 'Poppins', sans-serif;
-    background-image: linear-gradient(124deg,#f95a85,#f70361,#f95420);
+    background-image: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -2034,7 +2034,7 @@ select:-webkit-autofill:focus {
 }
 
 .footer .footer-bottom .social-media li:hover {
-    background: linear-gradient(124deg,#f95a85,#f70361,#f95420);
+    background: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
 }
 
 /* --------------------------------------
@@ -2068,7 +2068,7 @@ select:-webkit-autofill:focus {
 }
 
 .scroll-top:hover {
-    background: linear-gradient(124deg,#f95a85,#f70361,#f95420);
+    background: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
 }
 
 /* --------------------------------------
@@ -2115,7 +2115,7 @@ select:-webkit-autofill:focus {
     padding-right: 15px;
     font-size: 18px;
     text-transform: capitalize;
-    color: #f70361;
+    color: #4097E3;
     font-weight: 500;
 }
 
@@ -2173,7 +2173,7 @@ select:-webkit-autofill:focus {
 .pagination ul li .current,
 .pagination ul li a:hover,
 .pagination ul li span:hover {
-    background: linear-gradient(124deg,#f95a85,#f70361,#f95420);
+    background: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
 }
 
 .blog .sidebar .sidebar-widget {
@@ -2230,7 +2230,7 @@ select:-webkit-autofill:focus {
     color: #fff;
     line-height: 40px;
     border-radius: 24px;
-    background: linear-gradient(124deg,#f95a85,#f70361,#f95420);
+    background: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
     cursor: pointer;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -2240,7 +2240,7 @@ select:-webkit-autofill:focus {
 }
 
 .blog .sidebar .sidebar-search .sidebar-search-input button:hover {
-    background: linear-gradient(-124deg,#f95a85,#f70361,#f95420);
+    background: linear-gradient(-124deg,#9FCBF1,#4097E3,#0074DA);
 }
 
 .blog .sidebar .sidebar-category ul li a {
@@ -2263,7 +2263,7 @@ select:-webkit-autofill:focus {
 }
 
 .blog .sidebar .sidebar-category ul li a:hover {
-    background-image: linear-gradient(124deg,#f95a85,#f70361,#f95420);
+    background-image: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -2300,7 +2300,7 @@ select:-webkit-autofill:focus {
 }
 
 .blog .sidebar .sidebar-recent-posts .post .post-title:hover {
-    background-image: linear-gradient(124deg,#f95a85,#f70361,#f95420);
+    background-image: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -2334,7 +2334,7 @@ select:-webkit-autofill:focus {
 
 .blog .sidebar .sidebar-tags .tagcloud a:hover {
     color: #fff;
-    background: linear-gradient(124deg,#f95a85,#f70361,#f95420);
+    background: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
     border-color: transparent;
 }
 
@@ -2402,7 +2402,7 @@ select:-webkit-autofill:focus {
     line-height: 40px;
     text-align: center;
     font-size: 16px;
-    background: linear-gradient(124deg,#f95a85,#f70361,#f95420);
+    background: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
     color: #fff;
     border-radius: 24px;
 	-webkit-transition: all .3s ease-in-out;
@@ -2413,7 +2413,7 @@ select:-webkit-autofill:focus {
 }
 
 .blog .blog-item .blog-item-content .post-footer .post-share ul li a:hover {
-    background: linear-gradient(-124deg,#f95a85,#f70361,#f95420);
+    background: linear-gradient(-124deg,#9FCBF1,#4097E3,#0074DA);
 }
 
 .blog .blog-item .blog-item-content .post-footer .post-tags ul li {
@@ -2430,7 +2430,7 @@ select:-webkit-autofill:focus {
 }
 
 .blog .blog-item .blog-item-content .post-footer .post-tags ul li a:hover {
-    background-image: linear-gradient(124deg,#f95a85,#f70361,#f95420);
+    background-image: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -2486,7 +2486,7 @@ select:-webkit-autofill:focus {
 	right: 0;
 	font-size: 16px;
     font-weight: 500;
-    background-image: linear-gradient(124deg,#f95a85,#f70361,#f95420);
+    background-image: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
