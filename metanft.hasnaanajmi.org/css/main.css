@@ -1164,7 +1164,8 @@ select:-webkit-autofill:focus {
     width: 29px;
     height: 29px;
     line-height: 30px;
-    background: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
+    /* background: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA); */
+    background-color: white;
     border: 1px solid rgba(247, 3, 97, .2);
     border-radius: 50%;
     display: block;
