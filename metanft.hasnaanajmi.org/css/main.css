@@ -36,7 +36,7 @@ body {
 	overflow-x: hidden;
 }
 
-h3, h4, h5, h6, p, span {
+h3, h5, h6, p, span, a {
     font-family: 'Lemon', sans-serif;
     margin: 0;
     padding: 0;
@@ -2837,7 +2837,7 @@ select:-webkit-autofill:focus {
 
 }
 
-h1 {
+h4, h1 {
     font-family: "Creepster", system-ui;
     font-weight: 600;
     font-style: normal;
