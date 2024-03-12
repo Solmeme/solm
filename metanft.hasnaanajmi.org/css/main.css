@@ -2838,12 +2838,12 @@ select:-webkit-autofill:focus {
 
 }
 
-h4, h1 {
+h4, h1, .about h3 {
     font-family: "Creepster", system-ui;
     font-weight: 600;
     font-style: normal;
   }
-h2 {
+h2, .about a, .sub-title {
     font-family: "Acme", system-ui;
     font-weight: 400;
     font-style: normal;
