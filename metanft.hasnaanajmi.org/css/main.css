@@ -36,7 +36,7 @@ body {
 	overflow-x: hidden;
 }
 
- h5, h6, p, span, a {
+ h5, h6, p, span, .navv {
     font-family: 'Lemon', sans-serif;
     margin: 0;
     padding: 0;
