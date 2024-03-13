@@ -454,7 +454,7 @@ select:-webkit-autofill:focus {
 
 .header .header-inner .main-nav .menu li {
     position: relative;
-    margin-right: 63px;
+    margin-right: 58px;
     letter-spacing: .6px;
 }
 
@@ -2847,5 +2847,8 @@ h2, .about a, .sub-title {
     font-family: "Acme", system-ui;
     font-weight: 400;
     font-style: normal;
+  }
+  .navtxt{
+    white-space: nowrap;
   }
   
