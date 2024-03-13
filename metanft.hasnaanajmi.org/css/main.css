@@ -137,7 +137,7 @@ select:-webkit-autofill:focus {
     color: #fff;
     font-size: 28px;
     font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lemon', sans-serif;
     letter-spacing: .6px;
 }
 
@@ -189,7 +189,7 @@ select:-webkit-autofill:focus {
 }
 
 .main-btn {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lemon', sans-serif;
     background: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
     color: #fff;
     min-width: 129px;
@@ -888,7 +888,7 @@ select:-webkit-autofill:focus {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lemon', sans-serif;
     margin-bottom: 10px;
 }
 
@@ -1094,7 +1094,7 @@ select:-webkit-autofill:focus {
 }
 
 .nft-box .nft-box-btn-content .nft-box-btn {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lemon', sans-serif;
     display: inline-block;
     background: #fff;
     color: #343434;
@@ -1258,7 +1258,7 @@ select:-webkit-autofill:focus {
 }
 
 .collections .collection-item .collection-popularity {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lemon', sans-serif;
     background: rgba(255, 255, 255, .04);
     color: #fff;
     border-radius: 4px;
@@ -1311,7 +1311,7 @@ select:-webkit-autofill:focus {
     -webkit-text-fill-color: transparent;
     font-size: 20px;
     font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lemon', sans-serif;
     letter-spacing: .6px;
     margin-bottom: 8px;
 }
@@ -1812,7 +1812,7 @@ select:-webkit-autofill:focus {
     font-size: 18px;
     color: #fff;
     font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lemon', sans-serif;
     margin-bottom: 0;
 }
 
@@ -1940,6 +1940,7 @@ select:-webkit-autofill:focus {
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+    font-family: Lemon;
 }
 
 .footer .footer-top .footer-item ul li a:hover {
@@ -2157,7 +2158,7 @@ select:-webkit-autofill:focus {
 
 .pagination ul li a,
 .pagination ul li span {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lemon', sans-serif;
     display: inline-block;
     width: 45px;
     height: 45px;
@@ -2274,7 +2275,7 @@ select:-webkit-autofill:focus {
 
 .blog .sidebar .sidebar-category ul li a .category-number {
     float: right;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lemon', sans-serif;
 }
 
 .blog .sidebar .sidebar-recent-posts .post {
