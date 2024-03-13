@@ -2081,9 +2081,6 @@ select:-webkit-autofill:focus {
 /* --------------------------------------
    16. Blog Single
 -----------------------------------------*/
-.d-flex{
-    margin-left: 100px;
-}
 
 .breadcrumb-area {
     position: relative;
@@ -2565,7 +2562,6 @@ select:-webkit-autofill:focus {
 
 /* Large devices (desktops, less than 1200px) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-
     
 
 	.header .header-inner .main-nav .menu li {
@@ -2585,7 +2581,6 @@ select:-webkit-autofill:focus {
 /* Medium devices (tablets, less than 992px) */
 @media (min-width: 768px) and (max-width: 991.98px) {
 
-    
     .home .right-box {
         padding-top: 130px;
     }
