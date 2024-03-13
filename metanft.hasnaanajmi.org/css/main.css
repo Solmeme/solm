@@ -400,6 +400,9 @@ select:-webkit-autofill:focus {
 }
 
 @media only screen and (max-width: 991.99px) {
+    .d-flex{
+        margin-left: 40px;
+    }
     .header .header-inner .main-nav {
         position: absolute;
         top: 100%;
@@ -2078,6 +2081,9 @@ select:-webkit-autofill:focus {
 /* --------------------------------------
    16. Blog Single
 -----------------------------------------*/
+.d-flex{
+    margin-left: 100px;
+}
 
 .breadcrumb-area {
     position: relative;
@@ -2560,6 +2566,8 @@ select:-webkit-autofill:focus {
 /* Large devices (desktops, less than 1200px) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
+    
+
 	.header .header-inner .main-nav .menu li {
         margin-right: 32px;
     }
@@ -2577,6 +2585,7 @@ select:-webkit-autofill:focus {
 /* Medium devices (tablets, less than 992px) */
 @media (min-width: 768px) and (max-width: 991.98px) {
 
+    
     .home .right-box {
         padding-top: 130px;
     }
@@ -2836,6 +2845,14 @@ select:-webkit-autofill:focus {
         -ms-flex-wrap: wrap!important;
         flex-wrap: wrap!important;
     }
+    .mbottom {
+        margin-bottom: 40px;
+        margin-top: 10px;
+    }
+
+    .mbd {
+        margin-bottom: 30px;
+    }
 
 }
 
@@ -2851,5 +2868,8 @@ h2, .about a, .sub-title {
   } */
   .navtxt{
     white-space: nowrap;
+  }
+  .cb {
+    color: white;
   }
   
