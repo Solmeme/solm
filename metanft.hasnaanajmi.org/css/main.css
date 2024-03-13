@@ -31,16 +31,16 @@ Table Of Contents
 -----------------------------------------*/
 
 body {
-    /* font-family: 'Lemon', sans-serif; */
+    font-family: "Open Sans", "Helvetica Neue", helvetica, arial, sans-serif;
 	background-color: #050828;
 	overflow-x: hidden;
 }
 
- h5, h6, p, span, .navv {
-    font-family: 'Lemon', sans-serif;
+ /* h5, h6, p, span, .navv {
+    font-family: "Open Sans", "Helvetica Neue", helvetica, arial, sans-serif;
     margin: 0;
     padding: 0;
-}
+} */
 
 a,
 a:hover,
@@ -137,7 +137,7 @@ select:-webkit-autofill:focus {
     color: #fff;
     font-size: 28px;
     font-weight: 700;
-    font-family: 'Lemon', sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", helvetica, arial, sans-serif;
     letter-spacing: .6px;
 }
 
@@ -189,7 +189,7 @@ select:-webkit-autofill:focus {
 }
 
 .main-btn {
-    font-family: 'Lemon', sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", helvetica, arial, sans-serif;
     background: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
     color: #fff;
     min-width: 129px;
@@ -467,7 +467,7 @@ select:-webkit-autofill:focus {
 }
 
 .header .header-inner .main-nav .menu li a {
-    font-family: "Lemon", sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", helvetica, arial, sans-serif;
     position: relative;
     display: block;
     color: #fff;
@@ -632,7 +632,7 @@ select:-webkit-autofill:focus {
 }
 
 .header .header-inner .header-btn {
-    font-family: "Lemon", sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", helvetica, arial, sans-serif;
     display: flex;
     align-items: center;
     position: relative;
@@ -888,7 +888,7 @@ select:-webkit-autofill:focus {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 20px;
-    font-family: 'Lemon', sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", helvetica, arial, sans-serif;
     margin-bottom: 10px;
 }
 
@@ -1094,7 +1094,7 @@ select:-webkit-autofill:focus {
 }
 
 .nft-box .nft-box-btn-content .nft-box-btn {
-    font-family: 'Lemon', sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", helvetica, arial, sans-serif;
     display: inline-block;
     background: #fff;
     color: #343434;
@@ -1258,7 +1258,7 @@ select:-webkit-autofill:focus {
 }
 
 .collections .collection-item .collection-popularity {
-    font-family: 'Lemon', sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", helvetica, arial, sans-serif;
     background: rgba(255, 255, 255, .04);
     color: #fff;
     border-radius: 4px;
@@ -1311,7 +1311,7 @@ select:-webkit-autofill:focus {
     -webkit-text-fill-color: transparent;
     font-size: 20px;
     font-weight: 700;
-    font-family: 'Lemon', sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", helvetica, arial, sans-serif;
     letter-spacing: .6px;
     margin-bottom: 8px;
 }
@@ -1812,7 +1812,7 @@ select:-webkit-autofill:focus {
     font-size: 18px;
     color: #fff;
     font-weight: 600;
-    font-family: 'Lemon', sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", helvetica, arial, sans-serif;
     margin-bottom: 0;
 }
 
@@ -1940,7 +1940,7 @@ select:-webkit-autofill:focus {
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    font-family: Lemon;
+    /* font-family: Lemon; */
 }
 
 .footer .footer-top .footer-item ul li a:hover {
@@ -2158,7 +2158,7 @@ select:-webkit-autofill:focus {
 
 .pagination ul li a,
 .pagination ul li span {
-    font-family: 'Lemon', sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", helvetica, arial, sans-serif;
     display: inline-block;
     width: 45px;
     height: 45px;
@@ -2275,7 +2275,7 @@ select:-webkit-autofill:focus {
 
 .blog .sidebar .sidebar-category ul li a .category-number {
     float: right;
-    font-family: 'Lemon', sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", helvetica, arial, sans-serif;
 }
 
 .blog .sidebar .sidebar-recent-posts .post {
@@ -2839,16 +2839,16 @@ select:-webkit-autofill:focus {
 
 }
 
-h4, h1, .about h3,.container h3 {
-    font-family: "Lemon", system-ui;
+/* h4, h1, .about h3,.container h3 {
+    font-family: "Open Sans", "Helvetica Neue", helvetica, arial, sans-serif;
     font-weight: 600;
     font-style: normal;
   }
 h2, .about a, .sub-title {
-    font-family: "Acme", system-ui;
+    font-family: "Open Sans", "Helvetica Neue", helvetica, arial, sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
+  } */
   .navtxt{
     white-space: nowrap;
   }
