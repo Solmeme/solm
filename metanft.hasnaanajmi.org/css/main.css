@@ -399,9 +399,14 @@ select:-webkit-autofill:focus {
     }
 }
 
+.nav-link{
+    left: 60px;
+    position: relative;
+}
 @media only screen and (max-width: 991.99px) {
-    .d-flex{
-        margin-left: 40px;
+    .nav-link{
+        left: 20px;
+        position: relative;
     }
     .header .header-inner .main-nav {
         position: absolute;
@@ -2562,7 +2567,6 @@ select:-webkit-autofill:focus {
 
 /* Large devices (desktops, less than 1200px) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    
 
 	.header .header-inner .main-nav .menu li {
         margin-right: 32px;
@@ -2848,6 +2852,10 @@ select:-webkit-autofill:focus {
     .mbd {
         margin-bottom: 30px;
     }
+    .nav-link{
+        left: 0px;
+        position: relative;
+    }
 
 }
 
@@ -2867,4 +2875,6 @@ h2, .about a, .sub-title {
   .cb {
     color: white;
   }
-  
+  .mbd {
+    padding-bottom: 10px;
+}
