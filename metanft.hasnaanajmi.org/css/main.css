@@ -467,7 +467,7 @@ select:-webkit-autofill:focus {
 }
 
 .header .header-inner .main-nav .menu li a {
-    font-family: "Chakra Petch", sans-serif;
+    font-family: "Lemon", sans-serif;
     position: relative;
     display: block;
     color: #fff;
@@ -632,7 +632,7 @@ select:-webkit-autofill:focus {
 }
 
 .header .header-inner .header-btn {
-    font-family: "Chakra Petch", sans-serif;
+    font-family: "Lemon", sans-serif;
     display: flex;
     align-items: center;
     position: relative;
@@ -879,7 +879,7 @@ select:-webkit-autofill:focus {
     color: #babcc1;
     font-weight: 600;
     font-size: 15px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Acme', sans-serif;
 }
 
 .home .home-facts .facts-list li span.number {
