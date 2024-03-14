@@ -2976,15 +2976,32 @@ h2, .about a, .sub-title {
 
 
 
+.token{
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    margin-left: 16rem;
+    padding-top: 70px;
+}
+
+
+
+
+@media (min-width: 250px) and (max-width: 470px) {
+    .token{
+        margin-left: 0.5rem;
+        width: 21rem;
+    }
+}
 @media (min-width: 450px) and (max-width: 980px) {
     .token{
         width: 73vw;
-        margin-left: 0rem;
+        margin-left: 5rem;
     }
     }
     @media (min-width: 990px) and (max-width: 1400px) {
         .token{
-            margin-left: 0rem;
+            margin-left: 17rem;
         }
         }
         @media (min-width: 1400px) and (max-width: 1670px) {
@@ -2999,3 +3016,18 @@ h2, .about a, .sub-title {
                     margin-left: 464px;
                 }
             }
+
+
+            .swap{
+                font-size: 27px;
+               Margin-left: 0px;
+               Width: 80vw
+               }
+                 
+                         @media (min-width: 1750px) and (max-width: 2560px) {
+                               .swap{
+                                   width: 100vw;
+                  margin-left: 16.5rem;
+                               }
+                           }
+               
