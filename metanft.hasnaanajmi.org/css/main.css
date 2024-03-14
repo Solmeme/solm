@@ -1357,7 +1357,7 @@ select:-webkit-autofill:focus {
 }
 
 .about .main-title {
-    font-size: 42px;
+    font-size: 28px;
     line-height: 1.2;
     margin-bottom: 20px;
 }
@@ -3024,11 +3024,17 @@ h2, .about a, .sub-title {
                Margin-left: 0px;
                Width: 80vw
                }
+
+               @media (min-width: 1150px) and (max-width: 1450px) {
+                .swap{
+                    margin-left: -4rem;
+                }
+               }
                  
-                         @media (min-width: 1750px) and (max-width: 2560px) {
+                         @media (min-width: 1450px) and (max-width: 2560px) {
                                .swap{
                                    width: 100vw;
-                  margin-left: 16.5rem;
+                                   margin-left: 17rem;
                                }
                            }
                
