@@ -523,7 +523,7 @@ select:-webkit-autofill:focus {
 .header .header-inner .main-nav .menu li a:hover {
     background-image: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
     background-clip: text;
-    -webkit-background-c~lip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
