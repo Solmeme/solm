@@ -1953,7 +1953,7 @@ select:-webkit-autofill:focus {
 }
 
 .footer .footer-top ul li {
-	font-size: 23px;
+	font-size: 19px;
     font-weight: 500;
     margin-bottom: 19px;
     color: #ebe9e9;
@@ -2061,7 +2061,7 @@ select:-webkit-autofill:focus {
 }
 
 .footer .footer-bottom .social-media li {
-    font-size: 2.7rem;
+    font-size: 2.2rem;
     /* padding: 10px; */
     width: 66px;
     height: 45px;
