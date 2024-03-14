@@ -587,7 +587,7 @@ select:-webkit-autofill:focus {
 
 @media only screen and (max-width: 1440px) {
     .header .header-inner .main-nav .menu li a {
-        padding-right: 20px;
+        padding-right: 6px;
     }
 }
 
@@ -2888,7 +2888,8 @@ select:-webkit-autofill:focus {
 }
 
 .menu ul li a i {
-    font-size: 2.7rem;;
+    padding-right: 4px;
+    font-size: 2.2rem;;
 }
 
 /* h4, h1, .about h3,.container h3 {
