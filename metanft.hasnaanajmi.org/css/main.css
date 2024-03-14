@@ -42,7 +42,13 @@ body {
     margin: 0;
     padding: 0;
 } */
-
+.buy {
+    margin: 70px 120px;
+    color: white;
+}
+.space{
+    margin-left: 20px;
+}
 a,
 a:hover,
 a:focus,
@@ -824,7 +830,8 @@ select:-webkit-autofill:focus {
     overflow: hidden;
     background: url('../images/footer-animation-bg.svg') center center;
     background-size: cover;
-    min-height: 850px;
+    min-height: 520px;
+    top: 70px;
     display: flex;
     align-items: center;
 }
@@ -866,11 +873,20 @@ select:-webkit-autofill:focus {
     -webkit-text-fill-color: transparent;
 }
 
+.home .home-content strong {
+    /* color: #f1eded; */
+    /* line-height: 1.6; */
+	/* letter-spacing: .3px; */
+    /* margin-bottom: 32px; */
+    position: relative;
+    top: -9px;
+    /* text-align: left; */
+}
 .home .home-content p {
     color: #f1eded;
     line-height: 1.6;
 	letter-spacing: .3px;
-    margin-bottom: 50px;
+    margin-bottom: 32px;
     text-align: left;
 }
 
@@ -880,7 +896,7 @@ select:-webkit-autofill:focus {
 
 .home .home-content .main-btn {
 	font-size: 15px;
-    padding: 14px 25px;
+    /* padding: 14px 25px; */
 }
 
 .home .home-content .custom-btn {
@@ -934,6 +950,11 @@ select:-webkit-autofill:focus {
     padding-left: 70px;
 }
 
+.home .home-image  {
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 24px;
+}
 .home .home-image img {
     display: block;
 }
@@ -1379,8 +1400,8 @@ select:-webkit-autofill:focus {
 -----------------------------------------*/
 
 .roadmap {
-    padding-top: 120px;
-    padding-bottom: 115px;
+    padding-top: 100px;
+    padding-bottom: 5px;
 }
 
 .roadmap .roadmap-items {
@@ -1405,7 +1426,7 @@ select:-webkit-autofill:focus {
     background: linear-gradient(124deg,#9FCBF1,#4097E3,#0074DA);
     border: 0.5px solid #27344c;
     width: 5px;
-    height: 108%;
+    height: 90%;
 }
 
 .roadmap-item {
@@ -2069,7 +2090,7 @@ select:-webkit-autofill:focus {
     background: #040722;
     color: #fff;
     border: 1px solid #0f143a;
-    margin-left: 10px;
+    margin-left: 1px;
     border-radius: 24px;
     cursor: pointer;
     -webkit-transition: all 0.3s ease-in-out;
@@ -2859,6 +2880,15 @@ select:-webkit-autofill:focus {
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    .buy {
+        margin: 90px 18px;
+        width: 88.5%;
+        overflow: hidden;
+        color: white;
+    }
+    .home .home-content {
+        margin-top: 30px;
+    }
 
     /*----- Home ----*/
     .home .right-box {
@@ -2919,3 +2949,53 @@ h2, .about a, .sub-title {
 .let {
     margin-left: 80px;
 }
+.token{
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    margin-left: 16rem;
+    padding-top: 70px;
+}
+
+.nftcollec {
+    color: white;
+    width: 82%;
+    position: relative;
+    left: 9%;
+    line-height: 35px;
+    padding-left: 19px;
+    /* height: 20vh; */
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 24px;
+}
+.rflex {
+    margin-top: 25px;
+}
+
+
+
+
+@media (min-width: 450px) and (max-width: 980px) {
+    .token{
+        width: 73vw;
+        margin-left: 0rem;
+    }
+    }
+    @media (min-width: 990px) and (max-width: 1400px) {
+        .token{
+            margin-left: 0rem;
+        }
+        }
+        @media (min-width: 1400px) and (max-width: 1670px) {
+            .token{
+                margin-left: 25rem;
+            }
+            }
+
+
+            @media (min-width: 1750px) and (max-width: 2560px) {
+                .token{
+                    margin-left: 464px;
+                }
+            }
