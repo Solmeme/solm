@@ -1952,10 +1952,11 @@ select:-webkit-autofill:focus {
 }
 
 .footer .footer-top ul li {
-	font-size: 16px;
+	font-size: 23px;
     font-weight: 500;
-    margin-bottom: 15px;
-	color: #ebe9e9;
+    margin-bottom: 19px;
+    color: #ebe9e9;
+    margin: 10px;
 }
 
 .footer .footer-top ul li:last-of-type {
@@ -2060,8 +2061,8 @@ select:-webkit-autofill:focus {
 
 .footer .footer-bottom .social-media li {
     font-size: 2.7rem;
-    padding: 10px;
-    width: 45px;
+    /* padding: 10px; */
+    width: 66px;
     height: 45px;
     line-height: 45px;
     background: #040722;
