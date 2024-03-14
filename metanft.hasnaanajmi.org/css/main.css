@@ -2727,6 +2727,7 @@ select:-webkit-autofill:focus {
 	
 	.main-title {
         margin-bottom: 55px;
+        width: 30rem;
     }
 
     /*----- Home ----*/
