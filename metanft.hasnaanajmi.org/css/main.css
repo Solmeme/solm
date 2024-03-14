@@ -1919,7 +1919,8 @@ select:-webkit-autofill:focus {
 }
 
 .footer .footer-top { 
-    background-color: #11196496;
+    
+    background-color: #060c3f96;
     background-size: cover;
 	padding-top: 80px;
     padding-bottom: 80px;
