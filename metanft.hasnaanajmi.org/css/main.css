@@ -830,7 +830,7 @@ select:-webkit-autofill:focus {
 }
 
 .home .home-content {
-    margin-top: 40px;
+    margin-top: -10px;
 }
 
 .home .home-content h1 {
