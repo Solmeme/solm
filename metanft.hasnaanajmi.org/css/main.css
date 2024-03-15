@@ -855,7 +855,7 @@ select:-webkit-autofill:focus {
 @media only screen and (max-width: 1500px) {
     .home{
         min-height: 72vh;
-        top: 132px;
+        top: 152px;
     }
 }
 
@@ -984,7 +984,7 @@ select:-webkit-autofill:focus {
 @media only screen and (max-width: 1500px) {
     .home .right-box {
         padding-left: 76px;
-    top: -6px;
+    top: -38px;
     }}
 
 

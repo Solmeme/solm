@@ -517,7 +517,7 @@ mark {
 }
 @media (min-width: 1150px) and (max-width: 1500px) {
     .img-fluid {
-        width: 46%
+        width: 100%
     }
 }
 .img-fluida {
