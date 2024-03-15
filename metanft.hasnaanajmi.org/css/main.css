@@ -451,7 +451,7 @@ select:-webkit-autofill:focus {
 }
 
 .nav-link{
-    left: 134px;
+    /* left: 134px; */
     position: relative;
 }
 @media only screen and (max-width: 991.99px) {
