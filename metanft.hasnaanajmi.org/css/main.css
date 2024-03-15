@@ -996,7 +996,7 @@ select:-webkit-autofill:focus {
 }
 
 .home .right-box {
-    position: relative;
+    /* position: relative; */
     padding-left: 70px;
     top: -98px;
     left: -3rem;
@@ -1024,7 +1024,8 @@ select:-webkit-autofill:focus {
     border: 2px solid rgba(255, 255, 255, 0.1);
     padding: -19px;
     border-radius: 24px;
-    width: 77vw;
+    width: 35vw;
+    margin-top: 0px;
 }
 @media (min-width: 496px) and (max-width: 765px){
     .home .home-image{
@@ -1034,29 +1035,47 @@ select:-webkit-autofill:focus {
 }
 @media (min-width: 768px) and (max-width: 990px){
     .home .home-image{
-        width: 80vw;
+        width: 71vw;
+        margin-left: -5rem;
+    margin-bottom: 4rem;
     }
 
 }
 @media (min-width: 991px) and (max-width: 1200px){
     .home .home-image{
         width: 43vw;
+        margin-top: -69px;
     }
 
 }
 @media (min-width: 1500px) and (max-width: 1796px){
     .home .home-image{
-        width: 42vw;
+        width: 37vw;
+    margin-top: -69px;
     }
 }
 
 @media (min-width: 1800px) and (max-width: 2650px) {
     .home .home-image{
         width: 30vw;
+        margin-top: -69px;
     }
 }
 .home .home-image img {
     display: block;
+    width: 98vw;
+}
+@media (min-width: 496px) and (max-width: 765px){
+    .home .home-image img {
+        width: 82vw;
+    }
+
+}
+@media (min-width: 765px) and (max-width: 991px){
+    .home .home-image img {
+        width: 72vw;
+    }
+
 }
 
 .home2 {
@@ -2743,7 +2762,7 @@ select:-webkit-autofill:focus {
 @media (min-width: 768px) and (max-width: 991.98px) {
 
     .home .right-box {
-        padding-top: 130px;
+        padding-top: 14px;
     }
 
     .home .home-content h1:before {
@@ -2837,7 +2856,7 @@ select:-webkit-autofill:focus {
     /*----- Home ----*/
 
     .home .right-box {
-        padding-top: 130px;
+        padding-top: 45px;
     }
 
     .home .home-content h1:before {
@@ -3176,7 +3195,7 @@ h2, .about a, .sub-title {
 @media (min-width: 400px) and (max-width: 568px) {
     .token {
         width: 79vw;
-        margin-left: 4rem;
+        margin-left: 0rem;
     }
     .swap{
         Margin-left: 24px;
