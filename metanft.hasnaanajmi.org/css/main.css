@@ -57,6 +57,8 @@ body {
     padding: 25px 10px;
     border-radius: 24px;
     box-shadow: 2px 2px #2f5151;
+    /* width: 83vw;
+    left: -10rem; */
 }
 .log { 
     height: 100%;
@@ -73,10 +75,10 @@ a:active {
     color: inherit;
 }
 .icon{
-    left: 59px;
+    /* left: 59px; */
 }
 .iconb{
-    left: -60px;
+    /* left: -60px; */
 }
 
 a, button {
@@ -528,6 +530,7 @@ select:-webkit-autofill:focus {
         margin: 0;
     }
 }
+
 
 .header .header-inner .main-nav .menu li a {
     font-family: "Open Sans", "Helvetica Neue", helvetica, arial, sans-serif;
@@ -996,7 +999,7 @@ select:-webkit-autofill:focus {
     position: relative;
     padding-left: 70px;
     top: -98px;
-    left: -7rem;
+    left: -3rem;
 }
 @media (min-width: 750px) and (max-width: 991px){
     .home .right-box {
@@ -1021,8 +1024,32 @@ select:-webkit-autofill:focus {
     border: 2px solid rgba(255, 255, 255, 0.1);
     padding: -19px;
     border-radius: 24px;
-    width: 75vw;
+    width: 77vw;
 }
+@media (min-width: 496px) and (max-width: 765px){
+    .home .home-image{
+        width: 76vw;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 990px){
+    .home .home-image{
+        width: 80vw;
+    }
+
+}
+@media (min-width: 991px) and (max-width: 1200px){
+    .home .home-image{
+        width: 43vw;
+    }
+
+}
+@media (min-width: 1500px) and (max-width: 1796px){
+    .home .home-image{
+        width: 42vw;
+    }
+}
+
 @media (min-width: 1800px) and (max-width: 2650px) {
     .home .home-image{
         width: 30vw;
@@ -3079,9 +3106,37 @@ h2, .about a, .sub-title {
     padding-top: 70px;
     
 }
+.swap{
+    font-size: 27px;
+   Margin-left: 0px;
+   Width: 80vw
+   }
 
-
-
+   @media (min-width: 1150px) and (max-width: 1450px) {
+    .swap{
+        margin-left: -4rem;
+    }
+   }
+     
+             @media (min-width: 1450px) and (max-width: 1800px) {
+                   .swap{
+                       width: 100vw;
+                       margin-left: -12rem;
+                   }
+               }
+               @media (min-width: 1800px) and (max-width: 2560px) {
+                .swap{
+                    width: 100vw;
+                    margin-left: 2rem;
+                }
+                .token {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 29vw;
+                    margin-left: 16rem;
+                    padding-top: 70px;
+                }
+            }
 
 @media (min-width: 250px) and (max-width: 470px) {
     .token{
@@ -3096,21 +3151,77 @@ h2, .about a, .sub-title {
     }
     
 }
-@media (min-width: 450px) and (max-width: 980px) {
+
+/* @media (min-width: 450px) and (max-width: 980px) {
     .token{
-        width: 73vw;
-        margin-left: 5rem;
+        width: 78vw;
+        margin-left: -7rem;
     }
     .token .log {
         /* width: 90%; */
-        position: relative;
-        justify-content: space-around;
-        padding-right: 1px;
-        right: 60px;
+        /* position: relative;
+        justify-content: space-around; */
+        /* padding-right: 1px;
+        right: 60px; */
         /* margin-right: 40px; */
         /* height: 50px; */
+    /* } */
+    /* .swap{
+        font-size: 27px;
+        /* Margin-left: -26px; */
+        /* Width: 100vw; */
+    /* }
+    }  */
+
+@media (min-width: 400px) and (max-width: 568px) {
+    .token {
+        width: 79vw;
+        margin-left: 4rem;
     }
+    .swap{
+        Margin-left: 24px;
+        Width: 65vw
     }
+}
+@media (min-width: 567px) and (max-width: 780px) {
+    .token {
+        width: 68vw;
+        margin-left: 4rem;
+    }
+    .swap{
+        Margin-left: 24px;
+        Width: 65vw
+    }
+    .buy{
+        left: -7rem;
+    }
+}
+@media (min-width: 781px) and (max-width: 995px) {
+    .token {
+        width: 65vw;
+    margin-left: 2rem;
+    }
+    .swap{
+        width: 73vw;
+    }
+    .buy{
+        left: -7rem;
+    }
+}
+@media (min-width: 996px) and (max-width: 1440px) {
+    .token {
+        margin-top: -35px;
+        margin-left: 21rem;
+    }
+    .swap{
+        width: 73vw;
+    }
+    .buy{
+        left: -1%;
+    }
+}
+
+
 
    
     @media (min-width: 580px) and (max-width: 992px) {
@@ -3140,11 +3251,8 @@ h2, .about a, .sub-title {
             right: 510px;
         }
     }
-    @media (min-width: 990px) and (max-width: 1440px) {
-        .token{
-            margin-top: -20px;
-            margin-left: 7rem;
-        }
+    @media (min-width: 990px) and (max-width: 1410px) {
+        
         .log {
             position: relative;
             right: 220px;
@@ -3160,7 +3268,8 @@ h2, .about a, .sub-title {
             text-align: center;
             /* display: flex; */
             align-items: center;
-            left: 6%;
+            width: 59vw;
+             left: 10rem;
             color: white;
             width: 80%;
             border: 2px solid rgba(255, 255, 255, 0.1);
@@ -3169,34 +3278,46 @@ h2, .about a, .sub-title {
             box-shadow: 2px 2px #2f5151;
         }
         }
-        @media (min-width: 1400px) and (max-width: 1670px) {
+        @media (min-width: 1350px) and (max-width: 1410px) {
             .token{
-                margin-left: 25rem;
+                margin-left: 21rem;
+            }
+            .buy{
+                left: 11rem;
+    /* color: white; */
+    width: 64%;
             }
             }
+        @media (min-width: 1410px) and (max-width: 1670px) {
+            .token{
+                margin-left: 11rem;
+            }
+            }
+            
+    
 
 
             @media (min-width: 1750px) and (max-width: 2560px) {
                 .token{
-                    margin-left: 464px;
+                    margin-left: 25rem;
                 }
                 .buy {
                     margin: 90px 190px;
-                    position: relative;
-                    top: 70px;
-                    left: 190px;
-                    justify-content: center;
-                    align-items: center;
-                    text-align: center;
-                    /* display: flex; */
-                    align-items: center;
-                    color: white;
-                    width: 70%;
-                    /* margin-right: 150px; */
-                    border: 2px solid rgba(255, 255, 255, 0.1);
-                    padding: 25px 10px;
-                    border-radius: 24px;
-                    box-shadow: 2px 2px #2f5151;
+    position: relative;
+    top: 70px;
+    left: 22rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* display: flex; */
+    align-items: center;
+    color: white;
+    width: 44%;
+    /* margin-right: 150px; */
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    padding: 25px 10px;
+    border-radius: 24px;
+    box-shadow: 2px 2px #2f5151;
                 }
                 .buy .token .log  {
                     /* width: 90%; */
@@ -3217,22 +3338,5 @@ h2, .about a, .sub-title {
             }
 
 
-            .swap{
-                font-size: 27px;
-               Margin-left: 0px;
-               Width: 80vw
-               }
-
-               @media (min-width: 1150px) and (max-width: 1450px) {
-                .swap{
-                    margin-left: -4rem;
-                }
-               }
-                 
-                         @media (min-width: 1450px) and (max-width: 2560px) {
-                               .swap{
-                                   width: 100vw;
-                                   margin-left: 17rem;
-                               }
-                           }
+            
                
