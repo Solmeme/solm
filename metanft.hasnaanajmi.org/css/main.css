@@ -34,7 +34,7 @@ body {
     font-family: "Open Sans", "Helvetica Neue", helvetica, arial, sans-serif;
 	background-color: #050828;
 	overflow-x: hidden;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 
  /* h5, h6, p, span, .navv {
@@ -55,6 +55,12 @@ a:focus,
 a:active {
     text-decoration: none;
     color: inherit;
+}
+.icon{
+    left: 59px;
+}
+.iconb{
+    left: -60px;
 }
 
 a, button {
@@ -427,7 +433,7 @@ select:-webkit-autofill:focus {
 }
 
 .nav-link{
-    left: 60px;
+    left: 134px;
     position: relative;
 }
 @media only screen and (max-width: 991.99px) {
@@ -828,10 +834,11 @@ select:-webkit-autofill:focus {
 .home {
     position: relative;
     overflow: hidden;
-    background: url('../images/footer-animation-bg.svg') center center;
+    background: url(../images/footer-animation-bg.svg) center center;
     background-size: cover;
-    min-height: 520px;
-    top: 70px;
+    min-height: 81vh;
+    top: 201px;
+    /* margin-bottom: 25px; */
     display: flex;
     align-items: center;
 }
@@ -948,12 +955,14 @@ select:-webkit-autofill:focus {
 .home .right-box {
     position: relative;
     padding-left: 70px;
+    top: -98px;
 }
 
 .home .home-image  {
     border: 2px solid rgba(255, 255, 255, 0.1);
-    padding: 20px;
+    padding: -19px;
     border-radius: 24px;
+    width: 35vw;
 }
 .home .home-image img {
     display: block;
@@ -1352,7 +1361,7 @@ select:-webkit-autofill:focus {
    7. About
 -----------------------------------------*/
 .about {
-    padding-top: 120px;
+    padding-top: 10px
 }
 @media (min-width: 250px) and (max-width: 444px) {
     .meme{
@@ -2987,6 +2996,7 @@ h2, .about a, .sub-title {
     width: 50vw;
     margin-left: 16rem;
     padding-top: 70px;
+    
 }
 
 
