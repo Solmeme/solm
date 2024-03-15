@@ -1035,7 +1035,7 @@ select:-webkit-autofill:focus {
 }
 @media (min-width: 768px) and (max-width: 990px){
     .home .home-image{
-        width: 71vw;
+        /* width: 71vw; */
         margin-left: -5rem;
     margin-bottom: 4rem;
     }
@@ -1043,21 +1043,21 @@ select:-webkit-autofill:focus {
 }
 @media (min-width: 991px) and (max-width: 1200px){
     .home .home-image{
-        width: 43vw;
+        /* width: 43vw; */
         margin-top: -69px;
     }
 
 }
 @media (min-width: 1500px) and (max-width: 1796px){
     .home .home-image{
-        width: 37vw;
+        /* width: 37vw; */
     margin-top: -69px;
     }
 }
 
 @media (min-width: 1800px) and (max-width: 2650px) {
     .home .home-image{
-        width: 30vw;
+        /* width: 30vw; */
         margin-top: -69px;
     }
 }
@@ -1074,6 +1074,12 @@ select:-webkit-autofill:focus {
 @media (min-width: 765px) and (max-width: 991px){
     .home .home-image img {
         width: 72vw;
+    }
+
+}
+@media (min-width: 991px) and (max-width: 2560px){
+    .home .home-image img {
+        width: 35vw;
     }
 
 }
