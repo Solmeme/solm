@@ -3109,7 +3109,7 @@ h2, .about a, .sub-title {
 .swap{
     font-size: 27px;
    Margin-left: 0px;
-   Width: 80vw
+   Width: 91vw;
    }
 
    @media (min-width: 1150px) and (max-width: 1450px) {
