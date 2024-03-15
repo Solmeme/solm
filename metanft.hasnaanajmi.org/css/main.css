@@ -3141,10 +3141,10 @@ h2, .about a, .sub-title {
 @media (min-width: 250px) and (max-width: 470px) {
     .token{
         margin-left: 0.5rem;
-        width: 25rem;
+        width: 22rem;
     }
     .buy {
-        width: 108%;
+        width: 100%;
     }
     .log {
         width: 30%;
