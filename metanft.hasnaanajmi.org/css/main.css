@@ -56,7 +56,7 @@ body {
     border: 2px solid rgba(255, 255, 255, 0.1);
     padding: 25px 10px;
     border-radius: 24px;
-    box-shadow: 2px 2px #2f5151;
+    box-shadow: 0 0 10px #355773;
     /* width: 83vw;
     left: -10rem; */
 }
@@ -3034,7 +3034,7 @@ select:-webkit-autofill:focus {
         border: 2px solid rgba(255, 255, 255, 0.1);
         padding: 25px 10px;
         border-radius: 24px;
-        box-shadow: 2px 2px #2f5151;
+        box-shadow: 0 0 10px #355773;;
     }
 
 }
@@ -3275,7 +3275,7 @@ h2, .about a, .sub-title {
             border: 2px solid rgba(255, 255, 255, 0.1);
             padding: 25px 10px;
             border-radius: 24px;
-            box-shadow: 2px 2px #2f5151;
+            box-shadow: 0 0 10px #355773;;
         }
     }
     @media (min-width: 991px) and (max-width: 1350px) {
@@ -3327,7 +3327,7 @@ h2, .about a, .sub-title {
     border: 2px solid rgba(255, 255, 255, 0.1);
     padding: 25px 10px;
     border-radius: 24px;
-    box-shadow: 2px 2px #2f5151;
+    box-shadow: 0 0 10px #355773;;
                 }
                 .buy .token .log  {
                     /* width: 90%; */
