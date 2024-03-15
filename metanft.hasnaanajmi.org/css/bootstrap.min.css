@@ -533,12 +533,17 @@ mark {
     }
 
 }
-@media (min-width: 1150px) and (max-width: 1500px) {
+@media (min-width: 1148px) and (max-width: 1200px) {
+    .img-fluida{
+        width: 100%;
+    }
+}
+/* @media (min-width: 1200px) and (max-width: 1500px) {
     .img-fluida {
         width: 100%
     }
-}
-@media (min-width: 1150px) and (max-width: 1500px) {
+} */
+@media (min-width: 1200px) and (max-width: 1500px) {
     .img-fluida{
         width: 56%;
     }
