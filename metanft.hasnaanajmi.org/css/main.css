@@ -2865,6 +2865,14 @@ select:-webkit-autofill:focus {
         padding-top: 45px;
     }
 
+    @media (min-width: 575px) and (max-width: 770px){
+        .home .right-box {
+            margin-left: -8rem;
+    margin-bottom: 4rem;
+        }
+    
+    }
+
     .home .home-content h1:before {
         content: none;
     }
