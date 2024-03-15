@@ -523,11 +523,16 @@ mark {
 .img-fluida {
     max-width: 100%;
     height: auto;
-    width: 113%
+    width: 100%
 }
 @media (min-width: 1150px) and (max-width: 1500px) {
     .img-fluida {
-        width: 46%
+        width: 100%
+    }
+}
+@media (min-width: 1150px) and (max-width: 1500px) {
+    .img-fluida{
+        width: 100%
     }
 }
 

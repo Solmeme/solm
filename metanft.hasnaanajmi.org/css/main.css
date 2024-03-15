@@ -996,19 +996,32 @@ select:-webkit-autofill:focus {
     position: relative;
     padding-left: 70px;
     top: -98px;
+    left: -7rem;
 }
-@media only screen and (max-width: 1500px) {
+@media (min-width: 750px) and (max-width: 991px){
+    .home .right-box {
+        top: -38px;
+        left: -5rem;
+    }}
+
+    @media (min-width: 991px) and (max-width: 1500px) {
     .home .right-box {
         padding-left: 76px;
     top: -38px;
     }}
+    @media (min-width: 1800px) and (max-width: 2560px) {
+        .home .right-box {
+          
+            left: 0rem;
+        }
+    }
 
 
 .home .home-image  {
     border: 2px solid rgba(255, 255, 255, 0.1);
     padding: -19px;
     border-radius: 24px;
-    width: 90vw;
+    width: 75vw;
 }
 @media (min-width: 1800px) and (max-width: 2650px) {
     .home .home-image{
@@ -2958,6 +2971,7 @@ select:-webkit-autofill:focus {
     /*----- Home ----*/
     .home .right-box {
         padding-left: 0;
+        left: 2rem;
     }
 
     .home2 .home-content h1 {
