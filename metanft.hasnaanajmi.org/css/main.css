@@ -46,6 +46,7 @@ body {
     margin: 90px 190px;
     position: relative;
     top: 70px;
+    /* right: 120px; */
     /* justify-content: center; */
     text-align: center;
     /* display: flex; */
@@ -57,6 +58,7 @@ body {
     border-radius: 24px;
     box-shadow: 2px 2px #2f5151;
 }
+
 .space{
     margin-left: 20px;
 }
@@ -2939,6 +2941,22 @@ select:-webkit-autofill:focus {
     .mbd {
         margin-bottom: 30px;
     }
+    .buy {
+        /* margin: 90px 190px; */
+        position: relative;
+        
+        top: 100px;
+        /* justify-content: center; */
+        text-align: center;
+        /* display: flex; */
+        align-items: center;
+        color: white;
+    
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        padding: 25px 10px;
+        border-radius: 24px;
+        box-shadow: 2px 2px #2f5151;
+    }
 
 }
 
@@ -3016,19 +3034,87 @@ h2, .about a, .sub-title {
 @media (min-width: 250px) and (max-width: 470px) {
     .token{
         margin-left: 0.5rem;
-        width: 21rem;
+        width: 25rem;
     }
+    .buy {
+        width: 108%;
+    }
+    .log {
+        width: 30%;
+    }
+    
 }
 @media (min-width: 450px) and (max-width: 980px) {
     .token{
         width: 73vw;
         margin-left: 5rem;
     }
+    .token .log {
+        /* width: 90%; */
+        position: relative;
+        justify-content: space-around;
+        padding-right: 1px;
+        right: 60px;
+        /* margin-right: 40px; */
+        height: 50px;
     }
-    @media (min-width: 990px) and (max-width: 1400px) {
+    }
+
+   
+    @media (min-width: 580px) and (max-width: 992px) {
+        .log {
+            margin-right: 10px;
+        }
+        .buy{
+            margin-top: 120px;
+            height: 220px;
+            width: 80%;
+            position: relative;
+            right: 110px;
+        }
+    }
+    @media (min-width: 1023px) and (max-width: 1240px)  {
+        .log {
+            margin-right: 10px;
+            position: relative;
+            right: -50px;
+            
+        }
+        .buy{
+            margin-top: 120px;
+            height: 220px;
+            width: 80%;
+            position: relative;
+            right: 510px;
+        }
+    }
+    @media (min-width: 990px) and (max-width: 1440px) {
         .token{
             margin-top: -20px;
             margin-left: 7rem;
+        }
+        .log {
+            position: relative;
+            right: 220px;
+            
+            
+        }
+        .buy {
+            margin: 90px 100px;
+            position: relative;
+            top: 85px;
+            /* height: 270px; */
+            /* justify-content: center; */
+            text-align: center;
+            /* display: flex; */
+            align-items: center;
+            left: 6%;
+            color: white;
+            width: 80%;
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            padding: 25px 10px;
+            border-radius: 24px;
+            box-shadow: 2px 2px #2f5151;
         }
         }
         @media (min-width: 1400px) and (max-width: 1670px) {
@@ -3041,6 +3127,40 @@ h2, .about a, .sub-title {
             @media (min-width: 1750px) and (max-width: 2560px) {
                 .token{
                     margin-left: 464px;
+                }
+                .buy {
+                    margin: 90px 190px;
+                    position: relative;
+                    top: 70px;
+                    left: 190px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    /* display: flex; */
+                    align-items: center;
+                    color: white;
+                    width: 70%;
+                    /* margin-right: 150px; */
+                    border: 2px solid rgba(255, 255, 255, 0.1);
+                    padding: 25px 10px;
+                    border-radius: 24px;
+                    box-shadow: 2px 2px #2f5151;
+                }
+                .buy .token .log  {
+                    /* width: 90%; */
+                    position: relative;
+                    justify-content: space-around;
+                    padding-right: 1px;
+                    right: 260px;
+                    top: -15px;
+                    /* margin-right: 40px; */
+                    padding-bottom: 20px;
+                    height: 50px;
+                }
+                .swap{
+                    text-align: center;
+                    position: relative;
+                    right: 550px;
                 }
             }
 
