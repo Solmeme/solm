@@ -1351,9 +1351,13 @@ select:-webkit-autofill:focus {
 /* --------------------------------------
    7. About
 -----------------------------------------*/
-
 .about {
     padding-top: 120px;
+}
+@media (min-width: 250px) and (max-width: 444px) {
+    .meme{
+        width: 95vw;
+    }
 }
 
 .about .main-title {
